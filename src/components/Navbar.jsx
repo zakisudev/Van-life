@@ -8,7 +8,7 @@ export default function Navbar() {
     textDecoration: 'underline',
   };
   return (
-    <div className="navbar">
+    <div className="navbar" style={{ zIndex: '2147483648' }}>
       {
         <Link to="/" id="logo">
           #VANLIFE

@@ -21,6 +21,7 @@
   align-items: center;
   height: 10vh;
   background-color: #fff7ed;
+  z-index: 3147483647;
 }
 
 .navbar a {
@@ -29,6 +30,7 @@
   text-decoration: none;
   font-weight: 600;
   margin-right: 36px;
+  z-index: 3147483647;
 }
 
 .links a {
@@ -60,11 +62,6 @@
   color: white;
 }
 
-span {
-  display: block;
-  height: 233.21px;
-  width: 100vw;
-}
 .image {
   background: url('../images/image_54.svg') center no-repeat;
   background-size: cover;
